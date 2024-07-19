@@ -11,13 +11,13 @@ public class App {
 
         output(queen.doYourJob());
         output(queen.fly());
-        
+        output("-------------");
         output(worker .doYourJob());
         output(worker .fly());
-
+        output("-------------");
         output(drone.doYourJob());
         output(drone.fly());
-
+        output("-------------");
 
     }
 
