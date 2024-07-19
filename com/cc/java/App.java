@@ -12,7 +12,8 @@ public class App {
         pollObj(worker);
         pollObj(drone);
         
-       
+        HonyBee bee = new HonyBee(); // Superklasse //
+        pollObj(bee);
     }
     // Overloding method for polymorphism //
    private static void pollObj(HonyBee obj) {
